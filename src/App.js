@@ -1,12 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import MyComponent from "./study/MyComponent";
+import "./App.css";
+import FunctionalRoot from "./functional/FunctionalRoot";
 
 function App() {
-  const name = "리액트";
-  return (
-      <MyComponent/>
-  );
+  return <FunctionalRoot></FunctionalRoot>;
 }
 
 export default App;
