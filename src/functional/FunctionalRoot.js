@@ -9,6 +9,9 @@ import EventPractice2 from "./event/EventPractice2";
 import Counter from "./hooks/Counter";
 import Info from "./hooks/Info";
 import Counter2 from "./hooks/Counter2";
+import Info2 from "./hooks/Info2";
+import Average from "./hooks/Average";
+import Average2 from "./hooks/Average2";
 
 const FunctionalRoot = () => {
     // const name = "리액트";
@@ -52,7 +55,13 @@ const FunctionalRoot = () => {
     //     </div>
     // )
 
-    return <Counter2/>
+    // return <Counter2/>
+
+    // return <Info></Info>
+
+    // return <Info2></Info2>
+
+    return <Average2/>
 };
 
 export default FunctionalRoot;
