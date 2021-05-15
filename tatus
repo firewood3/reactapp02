@@ -1,0 +1,29 @@
+[33mcommit 7ef884f6c153e55e8e0b154b2a4aefc2b15d4c26[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: SEOKJIN_HONG <gchsj9838@gmail.com>
+Date:   Sat May 15 14:31:37 2021 +0900
+
+    useCallback / useRef
+
+[33mcommit ac507a5010c7ec33248be5e546ecf8ef8395296e[m
+Author: SEOKJIN_HONG <gchsj9838@gmail.com>
+Date:   Sat May 15 13:40:12 2021 +0900
+
+    reducer and inputs / useMemo
+
+[33mcommit d2e2b3154d9a461d29f150f038a51e5b0344c97b[m
+Author: SEOKJIN_HONG <gchsj9838@gmail.com>
+Date:   Fri May 14 17:56:36 2021 +0900
+
+    event / hooks / iteration / ref / state
+
+[33mcommit 1a15a7247063de46ada84ee6e377408da1de2f20[m
+Author: SEOKJIN_HONG <gchsj9838@gmail.com>
+Date:   Thu May 13 17:49:31 2021 +0900
+
+    Initial commit
+
+[33mcommit 31ec73a9574b6ac313ff8a30d8ef7ae23d74b11d[m
+Author: SEOKJIN_HONG <gchsj9838@gmail.com>
+Date:   Thu May 13 17:18:53 2021 +0900
+
+    Initialize project using Create React App
