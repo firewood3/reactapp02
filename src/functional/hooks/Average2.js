@@ -30,6 +30,7 @@ const Average = () => {
         }
     };
 
+    // list가 변경될 때마다 호출되는 hook이다.
     const avg = useMemo(() => getAverage(list), [list]);
 
     return (

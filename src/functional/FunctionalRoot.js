@@ -12,6 +12,8 @@ import Counter2 from "./hooks/Counter2";
 import Info2 from "./hooks/Info2";
 import Average from "./hooks/Average";
 import Average2 from "./hooks/Average2";
+import Average3 from "./hooks/Average3";
+import Average4 from "./hooks/Average4";
 
 const FunctionalRoot = () => {
     // const name = "리액트";
@@ -61,7 +63,10 @@ const FunctionalRoot = () => {
 
     // return <Info2></Info2>
 
-    return <Average2/>
+    // return <Average/>
+    // return <Average2/>
+    // return <Average3/>
+    return <Average4/>
 };
 
 export default FunctionalRoot;
