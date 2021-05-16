@@ -1,9 +1,11 @@
 import React from 'react';
 import SassComponent from "./SassComponent";
+import CssModule from "./CSSModule";
 
 const StylingRoot = () => {
     return (
-        <SassComponent></SassComponent>
+        // <SassComponent></SassComponent>
+        <CssModule></CssModule>
     );
 };
 
