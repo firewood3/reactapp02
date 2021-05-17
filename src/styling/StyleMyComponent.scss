@@ -1,0 +1,13 @@
+.StyleMyComponent {
+  &.highlighted {
+    background-color: #fcc419;
+  }
+  &.theme {
+    font-size: 30px;
+  }
+}
+:local {
+  .wrapper {
+    background-color: #fd7e14;
+  }
+}

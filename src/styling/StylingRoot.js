@@ -1,11 +1,25 @@
 import React from 'react';
 import SassComponent from "./SassComponent";
 import CssModule from "./CSSModule";
+import CssModule2 from "./CSSModule2";
+import StyleMyComponent from "./StyleMyComponent";
+import CssModule3 from "./CSSModule3";
+import StyledComponent from "./StyledComponent";
+import StyledDiv from "./StyledDiv";
+import StyledInput from "./StyledInput";
+import StyledComponent2 from "./StyledComponent2";
 
 const StylingRoot = () => {
     return (
         // <SassComponent></SassComponent>
-        <CssModule></CssModule>
+        // <CssModule></CssModule>
+        // <StyleMyComponent highlighted={true} theme={'theme'}></StyleMyComponent>
+        // <CssModule2></CssModule2>
+        // <CssModule3></CssModule3>
+        // <StyledComponent></StyledComponent>
+        // <StyledDiv>ddd</StyledDiv>
+        // <StyledInput></StyledInput>
+        <StyledComponent2></StyledComponent2>
     );
 };
 
