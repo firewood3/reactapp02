@@ -6,6 +6,7 @@ class Counter extends Component {
     number: 0,
     fixedNumber: 0
   };
+
   constructor(props) {
     super(props);
     // state의 초깃값 설정하기
@@ -15,6 +16,44 @@ class Counter extends Component {
     // };
   }
 
+  plusHandler = () => {
+    // 2씩 증가되지 않는다.
+    // this.setState({number: this.state.number + 1});
+    // this.setState({number: this.state.number + 1});
+
+    // 2씩 증가되지 않는다.
+    // this.setState(()=> {
+    //   return {
+    //     number : this.state.number + 1
+    //   }
+    // });
+    // this.setState(()=> {
+    //   return {
+    //     number : this.state.number + 1
+    //   }
+    // });
+
+    // 2씩 증가된다.
+    this.setState((prevState) => {
+      console.log(1)
+      return {
+        number : prevState.number +1
+      }
+    }, () => {
+      console.log('set state call back');
+      console.log(this.state)
+    });
+    this.setState((prevState) => {
+      console.log(2)
+      return {
+        number : prevState.number +1
+      }
+    }, () => {
+      console.log('set state call back');
+      console.log(this.state)
+    });
+  }
+
   render() {
     const {number, fixedNumber} = this.state;
 
@@ -22,13 +61,7 @@ class Counter extends Component {
       <div>
         <h1>{number}</h1>
         <h2>바뀌지 않는 값: {fixedNumber}</h2>
-        <button
-          // onClick을 통해 버튼이 클릭되었을 때 호출할 함수를 지정합니다.
-          onClick={() => {
-            this.setState({number: number + 1});
-          }}>
-          +1
-        </button>
+        <button onClick={this.plusHandler}>+1</button>
       </div>
     );
   }
